@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name" translatable="false">ITL-ALPR-Demo</string>
+    <string name="recognition_area" translatable="false">Recognition Area</string>
+
+</resources>

@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		377601FA2ED7EA96005E22FE /* OCRSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 377601F82ED7EA8E005E22FE /* OCRSDK.xcframework */; };
+		377601FB2ED7EA96005E22FE /* OCRSDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 377601F82ED7EA8E005E22FE /* OCRSDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		377601252ED68EDA005E22FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 377601012ED68ED9005E22FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 377601082ED68ED9005E22FE;
+			remoteInfo = "ITL-ALPR-Demo";
+		};
+		3776012F2ED68EDA005E22FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 377601012ED68ED9005E22FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 377601082ED68ED9005E22FE;
+			remoteInfo = "ITL-ALPR-Demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		377601682ED691DA005E22FE /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				377601FB2ED7EA96005E22FE /* OCRSDK.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3776016D2ED693CE005E22FE /* Embed PlugIns */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed PlugIns";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		377601092ED68ED9005E22FE /* ITL-ALPR-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ITL-ALPR-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		377601242ED68EDA005E22FE /* ITL-ALPR-DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ITL-ALPR-DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3776012E2ED68EDA005E22FE /* ITL-ALPR-DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ITL-ALPR-DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		377601F82ED7EA8E005E22FE /* OCRSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = OCRSDK.xcframework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		377601362ED68EDA005E22FE /* Exceptions for "ITL-ALPR-Demo" folder in "ITL-ALPR-Demo" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 377601082ED68ED9005E22FE /* ITL-ALPR-Demo */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		3776010B2ED68ED9005E22FE /* ITL-ALPR-Demo */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				377601362ED68EDA005E22FE /* Exceptions for "ITL-ALPR-Demo" folder in "ITL-ALPR-Demo" target */,
+			);
+			path = "ITL-ALPR-Demo";
+			sourceTree = "<group>";
+		};
+		377601272ED68EDA005E22FE /* ITL-ALPR-DemoTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "ITL-ALPR-DemoTests";
+			sourceTree = "<group>";
+		};
+		377601312ED68EDA005E22FE /* ITL-ALPR-DemoUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "ITL-ALPR-DemoUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		377601062ED68ED9005E22FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				377601FA2ED7EA96005E22FE /* OCRSDK.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		377601212ED68EDA005E22FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3776012B2ED68EDA005E22FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		377601002ED68ED9005E22FE = {
+			isa = PBXGroup;
+			children = (
+				3776010B2ED68ED9005E22FE /* ITL-ALPR-Demo */,
+				377601272ED68EDA005E22FE /* ITL-ALPR-DemoTests */,
+				377601312ED68EDA005E22FE /* ITL-ALPR-DemoUITests */,
+				3776010A2ED68ED9005E22FE /* Products */,
+				3776016B2ED693CE005E22FE /* Frameworks */,
+				377601F82ED7EA8E005E22FE /* OCRSDK.xcframework */,
+			);
+			sourceTree = "<group>";
+		};
+		3776010A2ED68ED9005E22FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				377601092ED68ED9005E22FE /* ITL-ALPR-Demo.app */,
+				377601242ED68EDA005E22FE /* ITL-ALPR-DemoTests.xctest */,
+				3776012E2ED68EDA005E22FE /* ITL-ALPR-DemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3776016B2ED693CE005E22FE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		377601082ED68ED9005E22FE /* ITL-ALPR-Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 377601372ED68EDA005E22FE /* Build configuration list for PBXNativeTarget "ITL-ALPR-Demo" */;
+			buildPhases = (
+				377601052ED68ED9005E22FE /* Sources */,
+				377601062ED68ED9005E22FE /* Frameworks */,
+				377601072ED68ED9005E22FE /* Resources */,
+				377601682ED691DA005E22FE /* Embed Frameworks */,
+				3776016D2ED693CE005E22FE /* Embed PlugIns */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				3776010B2ED68ED9005E22FE /* ITL-ALPR-Demo */,
+			);
+			name = "ITL-ALPR-Demo";
+			packageProductDependencies = (
+			);
+			productName = "ITL-ALPR-Demo";
+			productReference = 377601092ED68ED9005E22FE /* ITL-ALPR-Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		377601232ED68EDA005E22FE /* ITL-ALPR-DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3776013C2ED68EDA005E22FE /* Build configuration list for PBXNativeTarget "ITL-ALPR-DemoTests" */;
+			buildPhases = (
+				377601202ED68EDA005E22FE /* Sources */,
+				377601212ED68EDA005E22FE /* Frameworks */,
+				377601222ED68EDA005E22FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				377601262ED68EDA005E22FE /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				377601272ED68EDA005E22FE /* ITL-ALPR-DemoTests */,
+			);
+			name = "ITL-ALPR-DemoTests";
+			packageProductDependencies = (
+			);
+			productName = "ITL-ALPR-DemoTests";
+			productReference = 377601242ED68EDA005E22FE /* ITL-ALPR-DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3776012D2ED68EDA005E22FE /* ITL-ALPR-DemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3776013F2ED68EDA005E22FE /* Build configuration list for PBXNativeTarget "ITL-ALPR-DemoUITests" */;
+			buildPhases = (
+				3776012A2ED68EDA005E22FE /* Sources */,
+				3776012B2ED68EDA005E22FE /* Frameworks */,
+				3776012C2ED68EDA005E22FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				377601302ED68EDA005E22FE /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				377601312ED68EDA005E22FE /* ITL-ALPR-DemoUITests */,
+			);
+			name = "ITL-ALPR-DemoUITests";
+			packageProductDependencies = (
+			);
+			productName = "ITL-ALPR-DemoUITests";
+			productReference = 3776012E2ED68EDA005E22FE /* ITL-ALPR-DemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		377601012ED68ED9005E22FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					377601082ED68ED9005E22FE = {
+						CreatedOnToolsVersion = 26.0;
+					};
+					377601232ED68EDA005E22FE = {
+						CreatedOnToolsVersion = 26.0;
+						TestTargetID = 377601082ED68ED9005E22FE;
+					};
+					3776012D2ED68EDA005E22FE = {
+						CreatedOnToolsVersion = 26.0;
+						TestTargetID = 377601082ED68ED9005E22FE;
+					};
+				};
+			};
+			buildConfigurationList = 377601042ED68ED9005E22FE /* Build configuration list for PBXProject "ITL-ALPR-Demo" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 377601002ED68ED9005E22FE;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 3776010A2ED68ED9005E22FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				377601082ED68ED9005E22FE /* ITL-ALPR-Demo */,
+				377601232ED68EDA005E22FE /* ITL-ALPR-DemoTests */,
+				3776012D2ED68EDA005E22FE /* ITL-ALPR-DemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		377601072ED68ED9005E22FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		377601222ED68EDA005E22FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3776012C2ED68EDA005E22FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		377601052ED68ED9005E22FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		377601202ED68EDA005E22FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3776012A2ED68EDA005E22FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		377601262ED68EDA005E22FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 377601082ED68ED9005E22FE /* ITL-ALPR-Demo */;
+			targetProxy = 377601252ED68EDA005E22FE /* PBXContainerItemProxy */;
+		};
+		377601302ED68EDA005E22FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 377601082ED68ED9005E22FE /* ITL-ALPR-Demo */;
+			targetProxy = 3776012F2ED68EDA005E22FE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		377601382ED68EDA005E22FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 224Z7T23JY;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ITL-ALPR-Demo/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.itlogica.alprdemo.ITL-ALPR-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		377601392ED68EDA005E22FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 224Z7T23JY;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ITL-ALPR-Demo/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.itlogica.alprdemo.ITL-ALPR-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3776013A2ED68EDA005E22FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 9BYEX73V6N;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3776013B2ED68EDA005E22FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 9BYEX73V6N;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3776013D2ED68EDA005E22FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9BYEX73V6N;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.itlogica.alprdemo.ITL-ALPR-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ITL-ALPR-Demo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ITL-ALPR-Demo";
+			};
+			name = Debug;
+		};
+		3776013E2ED68EDA005E22FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9BYEX73V6N;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.itlogica.alprdemo.ITL-ALPR-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ITL-ALPR-Demo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ITL-ALPR-Demo";
+			};
+			name = Release;
+		};
+		377601402ED68EDA005E22FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9BYEX73V6N;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.itlogica.alprdemo.ITL-ALPR-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ITL-ALPR-Demo";
+			};
+			name = Debug;
+		};
+		377601412ED68EDA005E22FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9BYEX73V6N;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.itlogica.alprdemo.ITL-ALPR-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ITL-ALPR-Demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		377601042ED68ED9005E22FE /* Build configuration list for PBXProject "ITL-ALPR-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3776013A2ED68EDA005E22FE /* Debug */,
+				3776013B2ED68EDA005E22FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		377601372ED68EDA005E22FE /* Build configuration list for PBXNativeTarget "ITL-ALPR-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				377601382ED68EDA005E22FE /* Debug */,
+				377601392ED68EDA005E22FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3776013C2ED68EDA005E22FE /* Build configuration list for PBXNativeTarget "ITL-ALPR-DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3776013D2ED68EDA005E22FE /* Debug */,
+				3776013E2ED68EDA005E22FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3776013F2ED68EDA005E22FE /* Build configuration list for PBXNativeTarget "ITL-ALPR-DemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				377601402ED68EDA005E22FE /* Debug */,
+				377601412ED68EDA005E22FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 377601012ED68ED9005E22FE /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module OCRSDK {
+  umbrella header "OCRSDK.h"
+
+  export *
+  module * { export * }
+}
