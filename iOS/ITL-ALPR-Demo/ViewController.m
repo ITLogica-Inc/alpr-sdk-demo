@@ -6,7 +6,7 @@
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
     [self setupButton];
-    self.sdk = [[OCRSDK alloc] initWithPreview:self];
+    self.sdk = [[ITLALPR alloc] initWithPreview:self];
 }
 - (void)setupButton {
     self.recognizeButton = [UIButton buttonWithType:UIButtonTypeSystem];
@@ -26,7 +26,6 @@
     [self.recognizeButton addTarget:self action:@selector(buttonNormal:) forControlEvents:UIControlEventTouchUpInside | UIControlEventTouchUpOutside | UIControlEventTouchCancel | UIControlEventTouchDragExit];
     [self.view addSubview:self.recognizeButton];
     [self.view bringSubviewToFront:self.recognizeButton];
-
     [NSLayoutConstraint activateConstraints:@[
         [self.recognizeButton.leadingAnchor constraintEqualToAnchor:self.view.leadingAnchor constant:30],
         [self.recognizeButton.trailingAnchor constraintEqualToAnchor:self.view.trailingAnchor constant:-30],

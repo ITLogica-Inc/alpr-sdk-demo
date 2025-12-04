@@ -1,0 +1,6 @@
+framework module ITLALPR {
+  umbrella header "ITLALPR.h"
+
+  export *
+  module * { export * }
+}

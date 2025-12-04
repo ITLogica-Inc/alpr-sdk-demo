@@ -50,27 +50,27 @@
 
 </details>
 
+---
+
 # 2. ITL-ALPR-SDK IOS Integration Guide
-
-
 
 <details open>
 <summary>Add SDK to Project</summary>
 
-  - Add the `OCRSDK.xcframework` folder to the root directory of your Xcode project, and include it in Frameworks, Libraries, and Embedded Content in your project settings.
+  - Add the `ITLALPR.xcframework` folder to the root directory of your Xcode project, and include it in Frameworks, Libraries, and Embedded Content in your project settings.
 
   - Import the header file in the class where you need to use the SDK:
      ```objective-c
-     #import <OCRSDK/OCRSDK.h>
+     #import <ITLALPR/ITLALPR.h>
      ```
 </details>
 
 <details open>
 <summary>Initialize SDK</summary>
 
-   - Create an OCRSDK instance in your view controller and pass in the preview view controller (usually self):
+   - Create an ITLALPR instance in your view controller and pass in the preview view controller (usually self):
 ```objective-c
-self.sdk = [[OCRSDK alloc] initWithPreview:self];
+self.sdk = [[ITLALPR alloc] initWithPreview:self];
 ```
 </details>
 
@@ -109,16 +109,16 @@ dispatch_async(dispatch_get_main_queue(), ^{
 
    
 ```objective-c
-#import <OCRSDK/OCRSDK.h>
+#import <ITLALPR/ITLALPR.h>
 
 @interface ViewController : UIViewController
-@property (nonatomic, strong) OCRSDK *sdk;
+@property (nonatomic, strong) ITLALPR *sdk;
 @end
 
 @implementation ViewController
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.sdk = [[OCRSDK alloc] initWithPreview:self];
+    self.sdk = [[ITLALPR alloc] initWithPreview:self];
 }
 - (void)recognizeButtonTapped {
     [self.sdk startRecognize:^(NSMutableArray<NSString *> *resultArray, UIImage *processedImage) {
@@ -138,7 +138,7 @@ dispatch_async(dispatch_get_main_queue(), ^{
 </details>
 
 
-
+---
 # 3. Contact
 - Official Website: [https://alpr-sdk.itlogica.net/](https://alpr-sdk.itlogica.net/)
 - Email: alpr-sdk@itlogica.com

@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		377601FA2ED7EA96005E22FE /* OCRSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 377601F82ED7EA8E005E22FE /* OCRSDK.xcframework */; };
-		377601FB2ED7EA96005E22FE /* OCRSDK.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 377601F82ED7EA8E005E22FE /* OCRSDK.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		377601FA2ED7EA96005E22FE /* ITLALPR.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 377601F82ED7EA8E005E22FE /* ITLALPR.xcframework */; };
+		377601FB2ED7EA96005E22FE /* ITLALPR.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 377601F82ED7EA8E005E22FE /* ITLALPR.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +35,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				377601FB2ED7EA96005E22FE /* OCRSDK.xcframework in Embed Frameworks */,
+				377601FB2ED7EA96005E22FE /* ITLALPR.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -56,7 +56,7 @@
 		377601092ED68ED9005E22FE /* ITL-ALPR-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ITL-ALPR-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		377601242ED68EDA005E22FE /* ITL-ALPR-DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ITL-ALPR-DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3776012E2ED68EDA005E22FE /* ITL-ALPR-DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ITL-ALPR-DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		377601F82ED7EA8E005E22FE /* OCRSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = OCRSDK.xcframework; sourceTree = "<group>"; };
+		377601F82ED7EA8E005E22FE /* ITLALPR.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = ITLALPR.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -95,7 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				377601FA2ED7EA96005E22FE /* OCRSDK.xcframework in Frameworks */,
+				377601FA2ED7EA96005E22FE /* ITLALPR.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,7 +124,7 @@
 				377601312ED68EDA005E22FE /* ITL-ALPR-DemoUITests */,
 				3776010A2ED68ED9005E22FE /* Products */,
 				3776016B2ED693CE005E22FE /* Frameworks */,
-				377601F82ED7EA8E005E22FE /* OCRSDK.xcframework */,
+				377601F82ED7EA8E005E22FE /* ITLALPR.xcframework */,
 			);
 			sourceTree = "<group>";
 		};
